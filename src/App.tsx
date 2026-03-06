@@ -5,6 +5,7 @@ import LandingPage from './pages/landingPage'
 import Beelievers from './pages/beelievers'
 import Blogs from './pages/blogs'
 import Team from './pages/team'
+import Footer from './components/footer'
 
 const App = () => {
   return (
@@ -16,7 +17,7 @@ const App = () => {
         <Route path='/blogs' element={<Blogs />} />
         <Route path='/team' element={<Team />} />
       </Routes>
-      
+      <Footer />
     </div>
   )
 }
