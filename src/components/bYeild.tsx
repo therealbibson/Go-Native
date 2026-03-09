@@ -3,7 +3,7 @@ import { TbHandClick } from "react-icons/tb";
 import { FaKey, FaCoins, FaBitcoin } from "react-icons/fa";
 import { MdVerified } from "react-icons/md";
 import { IoFlash } from "react-icons/io5";
-import MarketImg from '../assets/images/tokensImg.jfif'
+import MarketImg from '../assets/images/tokensImg.jpg'
 
 const bYeild = () => {
   return (
@@ -44,7 +44,7 @@ const bYeild = () => {
       </div>
 
       <div>
-        <img src={MarketImg} alt="Markets" className='mx-45 my-20 size-240' />
+        <img src={MarketImg} alt="Markets" className='mx-45 my-20 size-240 rounded-4xl center' />
       </div>
     </div>
   )

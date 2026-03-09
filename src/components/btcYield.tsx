@@ -4,7 +4,7 @@ import YieldImg2 from '../assets/images/howImg2.jfif'
 import YieldImg3 from '../assets/images/howImg3.jfif'
 import { Link } from 'react-router-dom'
 import FlyBTCLogo from '../assets/images/flyBTC.png'
-import TrustImg from '../assets/images/trustImg.jfif'
+import TrustImg from '../assets/images/trustImg.jpg'
 
 const BtcYield = () => {
   return (
