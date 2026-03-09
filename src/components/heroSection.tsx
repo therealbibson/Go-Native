@@ -4,8 +4,8 @@ import HeroImg from '../assets/images/heroImg.png'
 const HeroSection = () => {
   return (
     <div>
-      <div className='bg-[#f7951e] text-white font-bold'>
-        <p>BELIEVE IN REAL BITCOIN DEFI AND BECOME BEELIEVER •</p>
+      <div className='bg-[#f7951e] text-white font-bold text-center'>
+        <p>• BELIEVE IN REAL BITCOIN DEFI AND BECOME BEELIEVER • BELIEVE IN REAL BITCOIN DEFI AND BECOME BEELIEVER • BELIEVE IN REAL BITCOIN DEFI AND BECOME BEELIEVER •</p>
       </div>
 
       <div className='text-white flex flex-col items-center m-50 mb-30 font-bold'>
