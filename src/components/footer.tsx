@@ -14,28 +14,28 @@ const Footer = () => {
             <img src={Logo} alt="Logo" />
           </div>
           <div className='flex gap-2'>
-            <div className='border p-1 border-[#242938] rounded-md cursor-pointer'>
+            <a href='https://twitter.com' target='_blank' className='border p-1 border-[#242938] rounded-md cursor-pointer'>
               <BsTwitterX />
-            </div>
-            <div className='border p-1 border-[#242938] rounded-md cursor-pointer'>
+            </a>
+            <a href='https://t.me' target='_blank' className='border p-1 border-[#242938] rounded-md cursor-pointer'>
               <FaTelegramPlane />
-            </div>
-            <div className='border p-1 border-[#242938] rounded-md cursor-pointer'>
+            </a>
+            <a href='https://github.com' target='_blank' className='border p-1 border-[#242938] rounded-md cursor-pointer'>
               <FaGithub />
-            </div>
-            <div className='border p-1 border-[#242938] rounded-md cursor-pointer'>
+            </a>
+            <a href='https://discord.com' target='_blank' className='border p-1 border-[#242938] rounded-md cursor-pointer'>
               <FaDiscord />
-            </div>
-            <div className='border p-1 border-[#242938] rounded-md cursor-pointer'>
+            </a>
+            <a href='https://twitter.com' target='_blank' className='border p-1 border-[#242938] rounded-md cursor-pointer'>
               <FaYoutube />
-            </div>
+            </a>
           </div>
         </div>
 
         <div className='flex flex-col gap-1'>
           <p>Developers</p>
-          <Link to='' className='text-[#90939e] transition hover:text-white transform'>Docs (coming soon)</Link>
-          <Link to='' className='text-[#90939e] transition hover:text-white transform'>Github</Link>
+          <Link to='' target='_blank' className='text-[#90939e] transition hover:text-white transform'>Docs (coming soon)</Link>
+          <Link to='https://github.com' target='_blank' className='text-[#90939e] transition hover:text-white transform'>Github</Link>
         </div>
 
         <div className='flex flex-col gap-1'>
@@ -48,6 +48,7 @@ const Footer = () => {
 
       <div className='p-10 pb-0 text-[#90939e] m-20 mb-0 ml-80 font-bold'>
         <p>Copyright © 2024 Native | All Rights Reserved</p>
+         m m
       </div>
     </div>
   )
